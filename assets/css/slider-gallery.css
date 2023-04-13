@@ -1,0 +1,131 @@
+/* стили для корневого элемента слайдера */
+body{
+    background-color: white;
+}
+
+.itcss {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.slider-back{
+    position: absolute;
+    bottom: 19%;
+}
+
+#slider-heading{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-right: 10px;
+}
+
+/* стили для элемента, в котором непосредственно расположены элементы (слайды) */
+.itcss__items {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* класс для отключения transition */
+.transition-none {
+    transition: none;
+}
+
+/* стили для элементов */
+.itcss__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.slider-img{
+    margin-left: 35%;
+}
+
+/* кнопки Prev и Next */
+.itcss__control {
+    position: absolute;
+    top: 45%;
+    width: 40px;
+    height: 50px;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    user-select: none;
+}
+
+.itcss__control_show {
+    display: flex;
+}
+
+.itcss__control:hover,
+.itcss__control:focus {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.itcss__control_prev {
+    left: 0;
+}
+
+.itcss__control_next {
+    right: 0;
+}
+
+.itcss__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.itcss__control_prev::before {
+    background-image: url("/assets/images/images/slider-button-left.png");
+    width: 100px;
+    height: 40px;
+}
+
+.itcss__control_next::before {
+    background-image: url("/assets/images/images/slider-button-right.png");
+    width: 100px;
+    height: 40px;
+}
+
+/* Индикаторы */
+.itcss__indicators {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 15%;
+    list-style: none;
+    user-select: none;
+}
+
+/*.itcss__indicator {*/
+/*    flex: 0 1 auto;*/
+/*    width: 30px;*/
+/*    height: 4px;*/
+/*    margin-right: 3px;*/
+/*    margin-left: 3px;*/
+/*    background-color: rgba(255, 255, 255, 0.5);*/
+/*    background-clip: padding-box;*/
+/*    border-top: 10px solid transparent;*/
+/*    border-bottom: 10px solid transparent;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.itcss__indicator_active {*/
+/*    background-color: #fff;*/
+/*}*/

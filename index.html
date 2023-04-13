@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>British Chamber Of Commerce In Kazakhstan</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/index.html"><img src="assets/images/bcoc_logo.png"></a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/business.html">Business in KZ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/sponsor.html">Become a Sponsor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/event.html#card10">Events & Media</a>
+      </li>
+      <li class="nav-item">
+        <img class="nav-icon" id="mail-icon" src="assets/images/mail-nav-icon.png" width="65%" height="70%" onclick="viewPopUp()">
+      </li>
+      <li class="nav-item">
+        <img class="nav-icon" id="phone-icon" src="assets/images/phone-nav-icon.png" width="50%" height="60%" href="#">
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="msg-popup" id="msg">
+  <form class="form2" id="form2" name="form2">
+    <div class="form-heading">
+      <img class="close" src="assets/images/close-icon.png" width="25" onclick="closePopUp()">
+      <h1>SEND US A QUICK MESSAGE</h1>
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control "  name="name" placeholder="Full name">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control "  name="email" placeholder="E-mail">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control" name="phone" placeholder="Phone">
+    </div>
+    <div class="mb-3 form-input">
+        <textarea type="text" class=" form-field form-control" id="message" placeholder="Message" name="message2"></textarea>
+    </div>
+
+    <div class="mb-3 form-check form-input">
+      <input type="checkbox" required class="form-check-input" id="exampleCheckE">
+      <label class="form-check-label" for="exampleCheck1">I agree to the processing of personal data <span>*</span></label>
+    </div>
+      <button class="form-button btn btn-dark  text-white" id="submit-btnE"><span class="text-button ">Submit</span></button>
+    </form>
+
+</div>
+
+ <div class="overlaytest js-overlay-thank-you" id="scs-pp">
+                <div class="popuptest js-thank-you">
+                  <div class="success-heading">
+                    <img class="success" src="assets/images/success-icon.png" width="80">
+                  </div>
+                  <div class="success-content">
+                    <h2>Your message has been sent<br>
+                      Our manager will contact you soon</h2>
+                  </div>
+                </div>
+              </div>
+
+<section class="main">
+  <div class="card utp">
+    <div class="card-body utp-info">
+      <h1 class="card-title utp-title">British Chamber<br>of Commerce<br>in Kazakhstan</h1>
+      <p class="card-text utp-text">The first British Chamber in Central Asia, British Chamber of Commerce in Kazakhstan is a dynamic and independent business network offering customized B2B services and networking opportunities for British business community in Kazakhstan.</p>
+      <a href="/member.html" class="btn btn-join" style="z-index: 2;">Join the Chamber</a>
+    </div>
+  </div>
+  <video autoplay muted loop id="bg-video">
+    <source src="/assets/video/London.mp4" type="video/mp4">
+  </video>
+</section>
+
+<section class="news">
+  <div class="slider-member">
+    <h1 class="news-heading">News</h1>
+	          <a href="news-list.html" style="position: absolute; top: 135%; right: 10%; color: #00AFCA; font-size: 1.5rem">All News</a>
+    <button id="prev" class="btn-member">
+      <i class="las la-angle-left"></i>
+    </button>
+    <div class="card-content">
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">21 November 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>KPMG SKILLS SURVEY</h5>
+        </div>
+      </div>
+     
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">01 september 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>QUARTERLY MACROECONOMIC REPORT. EXPERTS SURVEY RESULTS, Q1 - Q2, 2022</h5>
+        </div>
+      </div>
+      <!-- Card End -->
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">03 august 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>KAZAKHSTAN LEGISLATION UPDATEY</h5>
+        </div>
+      </div>
+      <!-- Card End -->
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">August 01, 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>Direct flights to Bangkok from Almaty from October 30, 2022</h5>
+        </div>
+      </div>
+      <!-- Card End -->
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">June 24, 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>June Issue of the Newsletter</h5>
+        </div>
+      </div>
+      <!-- Card End -->
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">June 09, 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>Admissions for the Reception class for 2022/23 academic year are currently in progress</h5>
+        </div>
+      </div>
+      <!-- Card End -->
+        <!-- Card -->
+        <div class="card-news">
+          <img class="news-icon" src="assets/images/news.png">
+          <h6 class="card-date">May 23, 2022</h6>
+          <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+          <div class="card-text">
+            <h5>Express survey: "Wage reconsideration in connection with the economic situation changes in Kazakhstan – Part 2"</h5>
+          </div>
+        </div>
+        <!-- Card End -->
+  <!-- Card -->
+  <div class="card-news">
+    <img class="news-icon" src="assets/images/news.png">
+    <h6 class="card-date">May 06, 2022</h6>
+    <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+    <div class="card-text">
+      <h5>
+        Work reimagined: How to prepare for 'renaissance and recommitment</h5>
+    </div>
+  </div>
+  <!-- Card End -->
+
+    <!-- Card -->
+    <div class="card-news">
+      <img class="news-icon" src="assets/images/news.png">
+      <h6 class="card-date"> May 05, 2022</h6>
+      <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+      <div class="card-text">
+        <h5>Air Astana Launches Flights from Almaty to London and Bodrum, Turkey</h5>
+      </div>
+    </div>
+    <!-- Card End -->
+
+      <!-- Card -->
+      <div class="card-news">
+        <img class="news-icon" src="assets/images/news.png">
+        <h6 class="card-date">April 29, 2022</h6>
+        <h6 class="card-text"><h8 style="font-weight: 1000; color: #00AFCA">|</h8> PRESS RELEASE</h6>
+        <div class="card-text">
+          <h5>Business Lunch with Huseyin Ozhan and Beth McKendrick/h5>
+        </div>
+      </div>
+      <!-- Card End -->
+
+
+    </div>
+    <button id="next" class="btn-member">
+      <i class="las la-angle-right"></i>
+    </button>
+  </div>
+</section>
+
+
+<div class= "eventPadding">
+  <h2 class="upcoming"> Upcoming Events</h2>
+  <a href="/event.html#card10"> <h4 class="viewAll"> View All Events </h4></a>
+</div>
+
+
+<section class="center slider"> 
+   
+
+
+
+<div> 
+	<a href="/event.html#card9">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">PROFESSIONAL JOB SKILLS OF THE FUTURE, SELF-MANAGEMENT</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock">
+
+                  </i>09.11.2022, 17:30<br> <i class="fa-solid fa-location-dot"></i>Almaty, Kazakhstan</p> 
+	</a>
+	
+</div>
+<div>
+	<a href="/event.html#card8">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">WELCOME BACK PARTY</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock"> 
+
+                  </i>01.10.2022, 19:00<br> <i class="fa-solid fa-location-dot"></i>Almaty, Kazakhstan</p>
+	</a>
+</div>
+
+<div> <a href="/event.html#card7">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">NETWORKING RECEPTION AT JLR</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock">
+
+                  </i>28.09.2022, 17:30<br> <i class="fa-solid fa-location-dot"></i>Almaty, Kazakhstan</p>
+	</a>
+</div>
+<div> <a href="/event.html#card6">
+  <img src="assets/images/event-1.png" style="box-shadow:0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">ROUND TABLE FOR THE BUSINESS COMMUNITY WITH THE PARTICIPATION OF DIT, BRITISH EMBASSY</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock">
+
+                  </i>13.09.2022, 17:00<br> <i class="fa-solid fa-location-dot"></i> Atyrau, Kazakhstan</p>
+	</a>
+</div>
+<div> <a href="/event.html#card5">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">UK ALUMNI NETWORKING EVENING</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock">
+
+                  </i>26.05.2022, 18:30<br> <i class="fa-solid fa-location-dot"></i> Astana, Kazakhstan</p>
+	</a>
+</div>
+<div> <a href="/event.html#card4">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">BUSINESS LUNCH WITH HUSEYIN OZHAN AND BETH MCKENDRICK</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock"></i>28.04.2022, 12:30<br>
+					  <i class="fa-solid fa-location-dot"></i>Almaty, Kazakhstan</p></a>
+</div>
+	
+	<div> <a href="/event.html#card3">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">CELEBRATION AND LEARNING EVENT TO MARK THE CLOSURE OF THE I-SEED</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock"></i>27.04.2022, 14:00<br>
+					  <i class="fa-solid fa-location-dot"></i>Astana, Kazakhstan</p></a>
+</div>
+	<div> <a href="/event.html#card2">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">THE RESULTS OF THE EXPRESS SURVEY "REVISION OF THE LEVEL OF WAGES DUE TO CHANGES IN THE ECONOMIC SITUATION IN KAZAKHSTAN"</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock"></i>17.03.2022, 11:00<br>
+					  <i class="fa-solid fa-location-dot"></i>Astana, Kazakhstan</p></a>
+</div>
+	<div> <a href="/event.html#card1">
+  <img src="assets/images/event-1.png" style="box-shadow:   0 10px 5px -10px rgb(96, 95, 95); width: 90%">
+  <h5 class="card-title">CURRENT TRENDS IN KAZAKHSTAN TAXATION; KEY ISSUES ON IMPORT DUTIES AND VAT FOR OIL & GAS CONTRACTORS</h5>
+                  <p class="card-text"><i class="fa-regular fa-clock"></i>16.03.2022, 15:00<br>
+					  <i class="fa-solid fa-location-dot"></i>Almaty, Kazakhstan</p></a>
+</div>
+	<div><a href="/event.html#card10">
+  <img src="assets/images/event-1.png" style=  "box-shadow:0 10px 5px -10px rgb(96, 95, 95); width: 90% ; ">
+ <h5 class="card-title">GREENER STRATEGY FOR SUSTAINABLE FUTURE </h5>
+<p class="card-text"><i class="fa-regular fa-clock">
+	</i>30.11.2022, 17:30<br> <i class="fa-solid fa-location-dot"></i>Astana, Kazakhstan</p></a>
+</div>
+	
+	
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).on('ready', function() {
+  
+  $(".center").slick({
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay:true
+
+    
+    
+    
+    
+
+  });
+
+});
+</script>
+
+<section class="members">
+  <div class="container-fluid" id="partners">
+    <h2 class="partners-h1">MEMBERS</h2>
+    <div class="customer-logos slider">
+      <div class="slide"><img class="partners-img" src="/assets/images/camp.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/ccc.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/ey.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/eb.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/camp.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/ccc.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/ey.png"></div>
+      <div class="slide"><img class="partners-img" src="/assets/images/eb.png"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="members">
+    <h2 class="partners-h1">FOUNDING MEMBERS</h2>
+    <div class="members-logo">
+      <img class="members-img" src="/assets/images/KPMG.png">
+      <img class="members-img" src="/assets/images/air-astana-logo.png">
+      <img class="members-img" src="/assets/images/rio.png">
+    </div>
+  </div>
+</section>
+
+<footer class="container-fluid" id="footer">
+  <div class="row">
+    <div class="col" id="logo-div">
+      <a class="footer-img" href="#">
+        <img src="/assets/images/bcoc_logo.png">
+      </a>
+      <h5 id="copyright">2022 © All rights reserved</h5>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-instagram"></a>
+        <a href="" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <div class="col" id="footer-li">
+      <ul class="footer-ul">
+        <h2 class="footer-h2" id="contact">Contact info</h2>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/phone-icon.png" width="8%">+7 (727) 346 72 47</li>
+        <li class="footer-li"><img class="icon-offset">+7 (707) 988 84 04</li>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/mail-icon.png" width="7%">dinara.abileva@britishchamber.kz</li>
+        <li class="footer-li"><img class="icon-offset">britishchamber@britishchamber.kz</li>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/location-icon.png" width="8%">Almaty, microdistrict Samal Towers, 97</li>
+      </ul>
+      <div class="offset-1"></div>
+      <ul class="footer-ul">
+        <h2 class="footer-h2">Useful links</h2>
+        <li class="footer-li"><u><a class="li" href="#">British Embassy</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Department for International Trade</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Doing Business in Kazakhstan</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">British Council</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Embassy of Kazakhstan in the UK</a></u></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+  <script src="assets/js/main.js"></script>
+	<script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
+
+<script src="/assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js">
+  
+
+
+</script>
+
+</script>
+<script src="https://kit.fontawesome.com/72acc62cd5.js" crossorigin="anonymous"></script>
+<script>
+  //members
+  $(document).ready(function () {
+    $(".customer-logos").slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }
+      ]
+    });
+  });
+
+  //news
+  const next=document.querySelector('#next')
+  const prev=document.querySelector('#prev')
+
+  function handleScrollNext (direction) {
+    const cards = document.querySelector('.card-content')
+    cards.scrollLeft=cards.scrollLeft += window.innerWidth / 2 > 600 ? window.innerWidth /2 : window.innerWidth -100
+  }
+
+  function handleScrollPrev (direction) {
+    const cards = document.querySelector('.card-content')
+    cards.scrollLeft=cards.scrollLeft -= window.innerWidth / 2 > 600 ? window.innerWidth /2 : window.innerWidth -100
+  }
+
+  next.addEventListener('click', handleScrollNext)
+  prev.addEventListener('click', handleScrollPrev)
+
+
+  //events
+  var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+      },
+      520: {
+        slidesPerView: 2,
+      },
+      950: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>
+</body>
+</html>

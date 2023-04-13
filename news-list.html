@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>British Chamber Of Commerce In Kazakhstan</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/index.html"><img src="assets/images/bcoc_logo.png"></a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/business.html">Business in KZ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/event.html">Events & Media</a>
+            </li>
+            <li class="nav-item">
+                <img class="nav-icon" id="mail-icon" src="assets/images/mail-nav-icon.png" width="65%" height="70%" onclick="viewPopUp()">
+            </li>
+            <li class="nav-item">
+                <img class="nav-icon" id="phone-icon" src="assets/images/phone-nav-icon.png" width="50%" height="60%" onclick="successPopUp()">
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="msg-popup" id="msg">
+  <form>
+    <div class="form-heading">
+      <img class="close" src="assets/images/close-icon.png" width="25" onmousedown="closePopUp()">
+      <h1>SEND US A QUICK MESSAGE</h1>
+    </div>
+    <div class="mb-3 form-input">
+      <input type="name" class="form-control" id="name" placeholder="Name">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="phone" class="form-control" id="phone" placeholder="Phone">
+    </div>
+    <div class="mb-3 form-input">
+      <textarea type="phone" class="form-control" id="message" placeholder="Message"></textarea>
+    </div>
+    <div class="mb-3 form-check form-input">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">I agree to the processing of personal data *</label>
+    </div>
+    <a class="btn btn-dark" id="submit-btn" onmousedown="successPopUp()">Submit</a>
+  </form>
+</div>
+
+<div class="success-popup" id="scs-pp" onmousedown="closeSuccessPopUp()">
+  <div class="success-form">
+    <div class="success-heading">
+      <img class="success" src="assets/images/success-icon.png" width="80">
+    </div>
+    <div class="success-content">
+      <h2>Your message has been sent<br>
+        Our manager will contact you soon</h2>
+    </div>
+  </div>
+</div>
+
+<section class="all-news">
+  <div class="container">
+    <h2 class="all-news-heading"><b>All News</b></h2>
+    <div class="filter-block">
+      <div class="input-group date" id="datepicker">
+        <input type="text" class="filter form-control" placeholder="From">
+        <span class="input-group-append"></span>
+      </div>
+      <a class="calendar"><img src="assets/images/calendar.png" width="30" style="margin-right: 50px"></a>
+
+      <div class="input-group date" id="datepicker2">
+        <input type="text" class="filter form-control" placeholder="To">
+        <span class="input-group-append"></span>
+      </div>
+      <a class="calendar"><img src="assets/images/calendar.png" width="30"></a>
+    </div>
+
+
+    <div class="tab-content container" id="myTabContent">
+    <div class="news-list tab-pane fade show active"  id="list1" role="tabpanel" aria-labelledby="list-tab1">
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            KPMG Skills Survey</h5>
+          <p>November 21, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>PwC Kazakhstan is Conducting Another Study of the Energy Market of Kazakhstan and Analyzing the Prospects 
+            of the Transition of the Economy to Low-Carbon Development</h5>
+          <p>September 01, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            PwC Kazakhstan Invites Companies to Participate 
+            in the ESG Rating Project in Annual Reports and Sustainability Reports</h5>
+          <p>September 01, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>​Quarterly Macroeconomic Report. Experts Survey Results, Q1 - Q2, 2022</h5>
+          <p> September 01, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Kazakhstan Legislation Update</h5>
+          <p> August 03, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            Direct flights to Bangkok from Almaty from October 30, 2022</h5>
+          <p>August 01, 2022</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="news-list tab-pane fade"  id="list2" role="tabpanel" aria-labelledby="list-tab2">
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>June Issue of the Newsletter</h5>
+          <p>June 24, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Admissions for the Reception class for 2022/23 academic year are currently in progress</h5>
+          <p> June 09, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            Haileybury Almaty pupil, Alexey has recently received the Karen McKellin International Leader of Tomorrow 
+            award, one of the biggest scholarship awards in Canada, to study at the University of British Columbia</h5>
+          <p> June 09, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Express survey: "Wage reconsideration in connection with the economic situation changes in Kazakhstan – Part 2"</h5>
+          <p> May 23, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Work reimagined: How to prepare for 'renaissance and recommitment'</h5>
+          <p>May 06, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Air Astana Launches Flights from Almaty to London and Bodrum, Turkey</h5>
+          <p> May 05, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="news-list tab-pane fade"  id="list3" role="tabpanel" aria-labelledby="list-tab3">
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Business Lunch with Huseyin Ozhan and Beth McKendrick</h5>
+          <p>April 29, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            English Olympiad at Haileybury Astana</h5>
+          <p>April 26, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+          <div class="news-left col-md-2">
+            <img class="news-icon2" src="assets/images/news.png" width="60%">
+          </div>
+          <div class="news-text col-md-10">
+            <div class="news-release">
+              <hr class="blue-line">
+              <h7>PRESS RELEASE</h7>
+            </div>
+            <h5>Uzbekistan Legislative Alert</h5>
+            <p>April 25, 2022</p>
+          </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>April Issue of the Newsletter</h5>
+          <p>April 14, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Unique Training Format for Members of the Conciliation Commission and HR Specialists</h5>
+          <p>April 11, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Haileybury Almaty pupils took part in the FIRST International Robotics Championship</h5>
+          <p>March 15, 2022</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="news-list tab-pane fade"  id="list4" role="tabpanel" aria-labelledby="list-tab3">
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Haileybury Almaty pupil received an offer from the University of Cambridge</h5>
+          <p>March 15, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            Uzbekistan Legislative Alert</h5>
+          <p>March 14, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+          <div class="news-left col-md-2">
+            <img class="news-icon2" src="assets/images/news.png" width="60%">
+          </div>
+          <div class="news-text col-md-10">
+            <div class="news-release">
+              <hr class="blue-line">
+              <h7>PRESS RELEASE</h7>
+            </div>
+            <h5>Industrial Policy Law</h5>
+            <p>March 10, 2022</p>
+          </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Science Lesson at Kindergarten</h5>
+          <p>February 22, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Safer Internet Day</h5>
+          <p>February 21, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Mangahigh COBIS Maths Winners</h5>
+          <p>February 21, 2022</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="news-list tab-pane fade"  id="list5" role="tabpanel" aria-labelledby="list-tab3">
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Atyrau Tech Invest</h5>
+          <p>February 14, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>
+            Haileybury Almaty Scholarships for Pupils Aged 12+!</h5>
+          <p>February 08, 2022</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+          <div class="news-left col-md-2">
+            <img class="news-icon2" src="assets/images/news.png" width="60%">
+          </div>
+          <div class="news-text col-md-10">
+            <div class="news-release">
+              <hr class="blue-line">
+              <h7>PRESS RELEASE</h7>
+            </div>
+            <h5>Business Reception in Atyrau with the Participation of Mrs Kathy Leach, Her Majesty’s Ambassador to the Republic of Kazakhstan, 
+              organized in cooperation with the UK’s Department for International Trade and PwC Kazakhstan</h5>
+            <p>January 24, 2022</p>
+          </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Vaccination of Employees and Permission to Access the Workplace: Obligation or Legal Requirement?</h5>
+          <p>December 13, 2021</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Publications of KPMG experts</h5>
+          <p>November 29, 2021</p>
+        </div>
+      </div>
+
+      <div class="news-row row" onclick="location.href='news.html'">
+        <div class="news-left col-md-2">
+          <img class="news-icon2" src="assets/images/news.png" width="60%">
+        </div>
+        <div class="news-text col-md-10">
+          <div class="news-release">
+            <hr class="blue-line">
+            <h7>PRESS RELEASE</h7>
+          </div>
+          <h5>Presentations of KPMG experts Honors&awards</h5>
+          <p> November 29, 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<ul class="nav nav-tabs" id="page-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="page-link active" id="list-tab1" data-bs-toggle="tab" data-bs-target="#list1" type="button" role="tab" aria-controls="list1" aria-selected="true">1</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="page-link" id="list-tab2" data-bs-toggle="tab" data-bs-target="#list2" type="button" role="tab" aria-controls="list2" aria-selected="false">2</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="page-link" id="list-tab3" data-bs-toggle="tab" data-bs-target="#list3" type="button" role="tab" aria-controls="list3" aria-selected="false">3</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="page-link" id="list-tab4" data-bs-toggle="tab" data-bs-target="#list4" type="button" role="tab" aria-controls="list3" aria-selected="false">4</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="page-link" id="list-tab5" data-bs-toggle="tab" data-bs-target="#list5" type="button" role="tab" aria-controls="list3" aria-selected="false">5</a>
+  </li>
+</ul>
+
+
+<footer class="container-fluid" id="footer">
+  <div class="row">
+    <div class="col" id="logo-div">
+      <a class="footer-img" href="#">
+        <img src="/assets/images/bcoc_logo.png">
+      </a>
+      <h5 id="copyright">2022 © All rights reserved</h5>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <div class="col" id="footer-li">
+      <ul class="footer-ul">
+        <h2 class="footer-h2" id="contact">Contact info</h2>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/phone-icon.png" width="8%">+7 (727) 346 72 47</li>
+        <li class="footer-li"><img class="icon-offset">+7 (707) 988 84 04</li>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/mail-icon.png" width="7%">dinara.abileva@britishchamber.kz</li>
+        <li class="footer-li"><img class="icon-offset">britishchamber@britishchamber.kz</li>
+        <li class="footer-li"><img class="footer-icons" src="/assets/images/location-icon.png" width="8%">Almaty, microdistrict Samal Towers, 97</li>
+      </ul>
+      <div class="offset-1"></div>
+      <ul class="footer-ul">
+        <h2 class="footer-h2">Useful links</h2>
+        <li class="footer-li"><u><a class="li" href="#">British Embassy</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Department for International Trade</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Doing Business in Kazakhstan</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">British Council</a></u></li>
+        <li class="footer-li"><u><a class="li" href="#">Embassy of Kazakhstan in the UK</a></u></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/assets/js/script.js"></script>
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/popper.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/moment-with-locales.min.js"></script>
+<script src="/assets/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/assets/js/main.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+  const c = document.querySelector('.container')
+  const indexs = Array.from(document.querySelectorAll('.index'))
+  let cur = -1
+  indexs.forEach((index, i) => {
+    index.addEventListener('click', (e) => {
+      // clear
+      c.className = 'container'
+      void c.offsetWidth; // Reflow
+      c.classList.add('open')
+      c.classList.add(`i${i + 1}`)
+      if (cur > i) {
+        c.classList.add('flip')
+      }
+      cur = i
+    })
+  })
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    $('#datepicker').datepicker();
+  });
+  $(function() {
+    $('#datepicker2').datepicker();
+  });
+</script>
+</body>
+</html>

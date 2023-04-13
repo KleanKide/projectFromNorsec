@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>British Chamber Of Commerce In Kazakhstan</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/index.html"><img src="assets/images/bcoc_logo.png"></a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/business.html">Business in KZ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/services.html#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sponsor.html#">Become a Sponsor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/event.html#card10">Events & Media</a>
+            </li>
+            <li class="nav-item">
+                <img class="nav-icon" id="mail-icon" src="assets/images/mail-nav-icon.png" width="65%" height="70%" onclick="viewPopUp()">
+            </li>
+            <li class="nav-item">
+                <img class="nav-icon" id="phone-icon" src="assets/images/phone-nav-icon.png" width="50%" height="60%" href="#">
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="msg-popup" id="msg">
+  <form class="form2" id="form2" name="form2">
+    <div class="form-heading">
+      <img class="close" src="assets/images/close-icon.png" width="25" onclick="closePopUp()">
+      <h1>SEND US A QUICK MESSAGE</h1>
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control "  name="name" placeholder="Full name">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control "  name="email" placeholder="E-mail">
+    </div>
+    <div class="mb-3 form-input">
+      <input type="text" class="form-field form-control" name="phone" placeholder="Phone">
+    </div>
+    <div class="mb-3 form-input">
+        <textarea type="text" class=" form-field form-control" id="message" placeholder="Message" name="message2"></textarea>
+    </div>
+
+    <div class="mb-3 form-check form-input">
+      <input type="checkbox" required class="form-check-input" id="exampleCheckE">
+      <label class="form-check-label" for="exampleCheck1">I agree to the processing of personal data <span>*</span></label>
+    </div>
+      <button class="form-button btn btn-dark  text-white" id="submit-btnE"><span class="text-button ">Submit</span></button>
+    </form>
+
+</div>
+
+ <div class="overlaytest js-overlay-thank-you" id="scs-pp">
+                <div class="popuptest js-thank-you">
+                  <div class="success-heading">
+                    <img class="success" src="assets/images/success-icon.png" width="80">
+                  </div>
+                  <div class="success-content">
+                    <h2>Your message has been sent<br>
+                      Our manager will contact you soon</h2>
+                  </div>
+                </div>
+              </div>
+
+<section class="business-main">
+    <div class="business-text">
+        <h2><b>Business in Kazakhstan</b></h2>
+        <p>
+            Kazakhstan has the most stable economy of the Commonwealth
+            of Independent States (CIS), of which it is a member, and is
+            leading all central Asian countries in terms of economic growth.
+            The national currency of Kazakhstan is the Tenge. For around
+            eight years, up until 2007, Kazakhstan recorded an average
+            growth rate of about 10% per year, and although the aftershock
+            of the global financial crisis hit hard in 2008, a remarkably
+            healthy growth of 3-4% was still achieved. In 2014 Kazakhstan
+            published ‘Strategy 2050’ with an objective to become one of
+            the top 30 most competitive nations by 2050.
+        </p>
+    </div>
+</section>
+
+<section class="opportunities">
+    <h1 class="business-heading">Opportunities</h1>
+    <p class="text-center">There are substantial opportunities in Kazakhstan for British companies,
+        especially in the oil and gas sector and extractive industries, due to
+        mass-expansion and development in the Caspian Sea. There are also planned
+        investments in the power, transport, communications and agricultural
+        sectors, as well as skills development, vocational training and retail
+        sectors which all offer significant opportunities for British companies.
+        British companies are well-represented in the financial and professional
+        business services sectors, which are sophisticated for the region.
+        Kazakhstan consists of five large economic regions:</p>
+
+    <div class="map container">
+        <img class="geo-loc" id="north" src="assets/images/geo-location.png" onmousedown="viewNorthPopUp()">
+        <img class="geo-loc" id="south" src="assets/images/geo-location.png" onmousedown="viewSouthPopUp()">
+        <img class="geo-loc" id="center" src="assets/images/geo-location.png" onmousedown="viewCenterPopUp()">
+        <img class="geo-loc" id="east" src="assets/images/geo-location.png" onmousedown="viewEastPopUp()">
+        <img class="geo-loc" id="west" src="assets/images/geo-location.png" onmousedown="viewWestPopUp()">
+
+        <img class="map-img" src="assets/images/map.png">
+    </div>
+</section>
+
+<div class="map-popup" id="north-pp">
+    <div class="map-form">
+        <div class="map-heading">
+            <img class="close close-black" src="assets/images/close-black-icon.png" width="25" onmousedown="closePopUp()">
+            <h3>North Kazakhstan</h3>
+        </div>
+        <div class="map-content">
+            <p>efficient grain economy, extraction of iron ore and coal,
+                mechanical engineering, production of oil products and
+                ferroalloys, and energy.</p>
+        </div>
+    </div>
+</div>
+
+<div class="map-popup" id="south-pp">
+    <div class="map-form">
+        <div class="map-heading">
+            <img class="close close-black" src="assets/images/close-black-icon.png" width="25" onmousedown="closePopUp()">
+            <h3>South Kazakhstan</h3>
+        </div>
+        <div class="map-content">
+            <p>cotton, rice, wool, grain, fruits, vegetables, grapes;
+                efficient nonferrous industry, instrument manufacturing,
+                light manufacturing, food production, fish farming, and
+                forestry products.</p>
+        </div>
+    </div>
+</div>
+
+<div class="map-popup" id="center-pp">
+    <div class="map-form">
+        <div class="map-heading">
+            <img class="close close-black" src="assets/images/close-black-icon.png" width="25" onmousedown="closePopUp()">
+            <h3>Central Kazakhstan</h3>
+        </div>
+        <div class="map-content">
+            <p>efficient ferrous and nonferrous industries, mechanical engineering, and cattle breeding.</p>
+        </div>
+    </div>
+</div>
+
+<div class="map-popup" id="east-pp">
+    <div class="map-form">
+        <div class="map-heading">
+            <img class="close close-black" src="assets/images/close-black-icon.png" width="25" onmousedown="closePopUp()">
+            <h3>East Kazakhstan</h3>
+        </div>
+        <div class="map-content">
+            <p>efficient nonferrous industry, energy, mechanical engineering and forestry products.</p>
+        </div>
+    </div>
+</div>
+
+<div class="map-popup" id="west-pp">
+    <div class="map-form">
+        <div class="map-heading">
+            <img class="close close-black" src="assets/images/close-black-icon.png" width="25" onmousedown="closePopUp()">
+            <h3>West Kazakhstan</h3>
+        </div>
+        <div class="map-content">
+            <p>one of the largest oil and gas extraction regions.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section class="business-card">
+    <div class="card-group container" id="top-cards">
+        <div class="bs card" id="oil" onmousedown="viewOil()">
+            <div class="row">
+                <img src="/assets/images/oil-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="oil-text">
+                <h5>Oil & Gas</h5>
+            </div>
+        </div>
+        <div class="bs card" id="oil-white" onmousedown="closeOil()">
+            <div class="row">
+                <img src="/assets/images/oil-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="oil-white-text">
+                <h5>Oil & Gas</h5>
+            </div>
+        </div>
+
+        <div class="bs card" id="mining" onmousedown="viewMining()">
+            <div class="row">
+                <img src="/assets/images/mining-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="mining-text">
+                <h5>Mining</h5>
+            </div>
+        </div>
+        <div class="bs card" id="mining-white" onmousedown="closeMining()">
+            <div class="row">
+                <img src="/assets/images/mining-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="mining-white-text">
+                <h5>Mining</h5>
+            </div>
+        </div>
+
+        <div class="bs card" id="finance" onmousedown="viewFinance()">
+            <div class="row">
+                <img src="/assets/images/finance-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="finance-text">
+                <h5>Financial Services</h5>
+            </div>
+        </div>
+        <div class="bs card" id="finance-white" onmousedown="closeFinance()">
+            <div class="row">
+                <img src="/assets/images/finance-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="finance-white-text">
+                <h5>Financial Services</h5>
+            </div>
+        </div>
+    </div>
+    <div class="card-group container" id="bottom-cards">
+        <div class="bs card" id="infra" onmousedown="viewInfra()">
+            <div class="row">
+                <img src="/assets/images/infra-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="infra-text">
+                <h5>Infrastructure</h5>
+            </div>
+        </div>
+        <div class="bs card" id="infra-white" onmousedown="closeInfra()">
+            <div class="row">
+                <img src="/assets/images/infra-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="infra-white-text">
+                <h5>Infrastructure</h5>
+            </div>
+        </div>
+
+        <div class="bs card" id="tech" onmousedown="viewTech()">
+            <div class="row">
+                <img src="/assets/images/tech-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="tech-text">
+                <h5>Technology Industry 4.0</h5>
+            </div>
+        </div>
+        <div class="bs card" id="tech-white" onmousedown="closeTech()">
+            <div class="row">
+                <img src="/assets/images/tech-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="tech-white-text">
+                <h5>Technology Industry 4.0</h5>
+            </div>
+        </div>
+
+        <div class="bs card" id="agri" onmousedown="viewAgri()">
+            <div class="row">
+                <img src="/assets/images/agri-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="agri-text">
+                <h5>Agriculture</h5>
+            </div>
+        </div>
+        <div class="bs card" id="agri-white" onmousedown="closeAgri()">
+            <div class="row">
+                <img src="/assets/images/agri-blue-icon.png" alt="" width="30%">
+            </div>
+            <div class="text-center" id="agri-white-text">
+                <h5>Agriculture</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="business-open">
+        <div class="container" id="oil-card">
+            <div class="open-card" id="oil-open-card">
+                <div class="card-text">
+                    <h3><b>Oil & Gas</b></h3>
+                    <p>The oil and gas industry remains the key
+                        driver of the Kazakh economy and contributes
+                        to around 70% of exports. Kazakhstan holds the
+                        Caspian Sea region’s largest recoverable oil
+                        reserves. According to BP Statistical Review
+                        of Wold Energy June 2015 Full Report, Kazakhstan’s
+                        total proven oil reserves amounted to around
+                        30 billion barrels which is about 1.8% of global
+                        oil reserves to the end of 2013. Total proven
+                        reserves of natural gas is 1.5 trillion cubic
+                        meters which is about 0.8% of global natural
+                        gas reserves.
+                        The landmark foreign investment in Kazakhstan
+                        are following projects in the West Kazakhstan:
+                        TCO, Karachaganak natural gas condensate field
+                        and Kashagan oil field in the northern Caspian.
+                        Kazakhstan's economic future is linked to oil
+                        and gas development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="mining-card">
+            <div class="open-card" id="mining-open-card">
+                <div class="card-text">
+                    <h3><b>Mining</b></h3>
+                    <p>Mining sector of Kazakhstan provides 30% of
+                        Kazakhstan's export earnings, 16% of GDP,
+                        and 19% of industrial employment. According
+                        to IAEA, uranium reserves and resources in
+                        Kazakhstan actually amounts to 1,7 mln. tons,
+                        or about 12% of the total volume of the world
+                        uranium reserves and resources
+                        The Country is rich in mineral resources,
+                        with 22% of world reserves of chrome, 20% of
+                        world reserves of gold, 17% of world reserves
+                        of zinc and 15% of lead. The Industry is focused
+                        mainly on extraction and export of raw materials
+                        and base metals, with further high-value processing abroad.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="finance-card">
+            <div class="open-card" id="finance-open-card">
+                <div class="card-text">
+                    <h3><b>Financial Services</b></h3>
+                    <p>A new Astana International Financial Centre
+                        (AIFC) based on the model of Dubai’s IFC and English
+                        law will be established as part of the ‘100 Steps’
+                        programme of institutional reforms. Its ambition
+                        to be operational by 2018. The Court (as with Dubai’s
+                        Arbitration Court) is to be staffed in the first
+                        stage by international judges already experienced in
+                        English common law and setting up an entirely new
+                        Arbitration Court to adjudicate on commercial disputes
+                        acting on the basis of English common law. The aim
+                        is for the Tax preferences will be provided for
+                        companies based in the AIFC with zero corporate,
+                        property, income and land tax rates under certain
+                        conditions until 2066.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="infra-card">
+            <div class="open-card" id="infra-open-card">
+                <div class="card-text">
+                    <h3><b>Infrastructure</b></h3>
+                    <p>Transport infrastructure development today
+                        aims to provide a quality transport
+                        connection with areas of regional centers,
+                        as well as the proper condition of the
+                        transport infrastructure in the country.
+                        As a country that is at the crossroads of
+                        two continents, Europe and Asia, Kazakhstan
+                        furthering development of its transit potential
+                        within the frame of «Nurly Zhol» State program of
+                        infrastructure development for 2015-2019 years,
+                        which allows to increase the volume of transit
+                        traffic twofold. The priority project in the
+                        transport sector is the completion of the international
+                        transit corridor Western Europe - Western China.
+                        Domestic manufacturing will be boosted for export
+                        and Kazakhstan will be established as both a transcontinental
+                        transport and a regional logistics hub between China and European markets.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="tech-card">
+            <div class="open-card" id="tech-open-card">
+                <div class="card-text">
+                    <h3><b>Technology Industry 4.0</b></h3>
+                    <p>On 22 December 2014 the World Bank approved
+                        an $88 million loan that would support
+                        Kazakhstan’s efforts to facilitate commercially
+                        and socially viable innovation in technology.
+                        The Fostering Productive Innovation Project
+                        resulted development of the Centre for Technological
+                        Competence based on model “Industry 4.0.”
+                        and its ambition is to become the first
+                        technological platform in Kazakhstan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="agri-card">
+            <div class="open-card" id="agri-open-card">
+                <div class="card-text">
+                    <h3><b>Agriculture</b></h3>
+                    <p>Agriculture in Kazakhstan remains a small scale sector
+                        of Kazakhstan's economy. Agriculture's contribution
+                        to the GDP is under 10% - it was recorded as 6.7%,
+                        and as occupying only 20% of labor. At the same time,
+                        more than 70% of its land is occupied in crops and
+                        animal husbandry. Kazakhstan's largest crop is wheat,
+                        which it exports. It ranks as the sixth largest wheat
+                        producer in the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid" id="footer">
+    <div class="row">
+        <div class="col" id="logo-div">
+            <a class="footer-img" href="#">
+                <img src="/assets/images/bcoc_logo.png">
+            </a>
+            <h5 id="copyright">2022 © All rights reserved</h5>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="col" id="footer-li">
+            <ul class="footer-ul">
+                <h2 class="footer-h2" id="contact">Contact info</h2>
+                <li class="footer-li"><img class="footer-icons" src="/assets/images/phone-icon.png" width="8%">+7 (727) 346 72 47</li>
+                <li class="footer-li"><img class="icon-offset">+7 (707) 988 84 04</li>
+                <li class="footer-li"><img class="footer-icons" src="/assets/images/mail-icon.png" width="7%">dinara.abileva@britishchamber.kz</li>
+                <li class="footer-li"><img class="icon-offset">britishchamber@britishchamber.kz</li>
+                <li class="footer-li"><img class="footer-icons" src="/assets/images/location-icon.png" width="8%">Almaty, microdistrict Samal Towers, 97</li>
+            </ul>
+            <div class="offset-1"></div>
+            <ul class="footer-ul">
+                <h2 class="footer-h2">Useful links</h2>
+                <li class="footer-li"><u><a class="li" href="#">British Embassy</a></u></li>
+                <li class="footer-li"><u><a class="li" href="#">Department for International Trade</a></u></li>
+                <li class="footer-li"><u><a class="li" href="#">Doing Business in Kazakhstan</a></u></li>
+                <li class="footer-li"><u><a class="li" href="#">British Council</a></u></li>
+                <li class="footer-li"><u><a class="li" href="#">Embassy of Kazakhstan in the UK</a></u></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
+	
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
